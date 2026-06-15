@@ -53,14 +53,20 @@ npx expo start
 * Emulador Android
 * Simulador iOS
 
-## Mocks Utilizados
+## 📱 Telas do Aplicativo
 
-Nesta Sprint foi utilizada uma camada de dados simulados (mock) para representar informações que futuramente serão obtidas por meio de APIs reais.
+### Home — Dashboard Principal
+![MENU](https://misleading-blush-vvrqo7lx.edgeone.app/Captura%20de%20tela%202026-06-15%20190953.png)
 
-Os mocks estão armazenados no arquivo:
 
-src/data/mockData.js
+### Dashboard Do Trecho
+![TRECHO 1](https://civic-violet-rmhbyei3.edgeone.app/Captura%20de%20tela%202026-06-15%20191540.png)
 
+### Dashboard Do Trecho
+![TRECHO 2](https://definite-red-hmgafckm.edgeone.app/Captura%20de%20tela%202026-06-15%20191836.png)
+
+### Dashboard Do Trecho
+![TRECHO 3](https://ibb.co/G3x7SwCN)
 ### Dados Simulados
 
 #### Ocorrências
