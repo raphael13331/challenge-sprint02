@@ -32,23 +32,6 @@ Com essa solução, busca-se contribuir para uma gestão mais eficiente da veget
 * Context API
 * StyleSheet
 
-## Estrutura do Projeto
-
-src/
-├── screens/
-│   ├── Home.js
-│   ├── Monitoramento.js
-│   └── Ocorrencias.js
-│
-├── data/
-│   └── mockData.js
-│
-├── components/
-│
-├── context/
-│
-└── navigation/
-
 ## Instalação
 
 1. Clone o repositório:
