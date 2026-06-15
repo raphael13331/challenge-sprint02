@@ -120,7 +120,7 @@ Mesmo utilizando dados simulados nesta Sprint, a estrutura foi preparada para fu
 ## Vídeo de Demonstração
 
 O vídeo apresenta:
-**[Acessar Video no YOUTUBE]()**
+**[Acessar Video no YOUTUBE](https://www.youtube.com/watch?v=qUArkwHXPwM)**
 * Navegação entre as telas;
 * Exibição dos dados mockados;
 * Atualização de status das ocorrências;
