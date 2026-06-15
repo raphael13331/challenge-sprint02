@@ -2,17 +2,26 @@
 
 ## Integrantes
 
-* Nome Completo – RM XXXXXXX
-* Nome Completo – RM XXXXXXX
-* Nome Completo – RM XXXXXXX
-* Nome Completo – RM XXXXXXX
-* Nome Completo – RM XXXXXXX
+* Raphael Talarico Nascimento Silva – RM 565219
+* Leonardo Luster Gomes – RM 564448
+* Nelson Troccoli Santos Neto – RM 562815
+* Kauã da Silva Lazarim – RM 564625
 
 ## Descrição do Projeto
 
-O Sistema de Monitoramento de Vegetação foi desenvolvido para auxiliar a Motiva no acompanhamento remoto de áreas de vegetação próximas às rodovias.
+## Descrição do Projeto
 
-A solução permite visualizar trechos monitorados, consultar ocorrências registradas e acompanhar o status da vegetação em diferentes pontos da rodovia. O objetivo é contribuir para a prevenção de riscos como incêndios, queda de árvores e obstrução das vias, facilitando a tomada de decisão das equipes responsáveis pela manutenção.
+O Sistema de Monitoramento de Vegetação é uma aplicação mobile desenvolvida em React Native com o objetivo de auxiliar a Motiva na identificação, acompanhamento e gerenciamento de áreas de vegetação localizadas próximas às rodovias sob sua administração.
+
+A vegetação excessiva nas margens das estradas pode representar diversos riscos operacionais e de segurança, como aumento da probabilidade de incêndios, queda de árvores sobre a pista, redução da visibilidade dos motoristas e dificuldades na realização de inspeções e manutenções preventivas. Diante desse cenário, o projeto foi concebido para fornecer uma ferramenta digital que centraliza informações sobre trechos monitorados e ocorrências registradas, facilitando a tomada de decisão das equipes responsáveis.
+
+A aplicação permite visualizar diferentes trechos da rodovia, consultar o status da vegetação em cada localidade e acompanhar ocorrências relacionadas a possíveis riscos ambientais e operacionais. Além disso, o sistema oferece um fluxo funcional para atualização do status das ocorrências, simulando o processo que seria realizado pelas equipes de campo após uma inspeção ou intervenção.
+
+Nesta Sprint, o aplicativo utiliza dados mockados para representar informações reais que futuramente serão obtidas por meio de APIs e serviços integrados. Os dados simulados incluem ocorrências, trechos monitorados, níveis de vegetação e registros de inspeção, permitindo validar a experiência do usuário, a navegação entre telas e o comportamento geral da solução sem depender de infraestrutura externa.
+
+A arquitetura do projeto foi organizada de forma modular, separando telas, componentes, navegação e dados, garantindo maior legibilidade, facilidade de manutenção e escalabilidade para futuras implementações. Dessa forma, o sistema já está preparado para evoluir com a integração de recursos como geolocalização, notificações em tempo real, captura de imagens em campo e monitoramento automatizado por meio de APIs e sensores.
+
+Com essa solução, busca-se contribuir para uma gestão mais eficiente da vegetação ao longo das rodovias, promovendo maior segurança para os usuários, redução de riscos operacionais e otimização dos processos de monitoramento e manutenção realizados pela Motiva.
 
 ## Tecnologias Utilizadas
 
