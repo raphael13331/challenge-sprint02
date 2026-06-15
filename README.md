@@ -9,8 +9,6 @@
 
 ## Descrição do Projeto
 
-## Descrição do Projeto
-
 O Sistema de Monitoramento de Vegetação é uma aplicação mobile desenvolvida em React Native com o objetivo de auxiliar a Motiva na identificação, acompanhamento e gerenciamento de áreas de vegetação localizadas próximas às rodovias sob sua administração.
 
 A vegetação excessiva nas margens das estradas pode representar diversos riscos operacionais e de segurança, como aumento da probabilidade de incêndios, queda de árvores sobre a pista, redução da visibilidade dos motoristas e dificuldades na realização de inspeções e manutenções preventivas. Diante desse cenário, o projeto foi concebido para fornecer uma ferramenta digital que centraliza informações sobre trechos monitorados e ocorrências registradas, facilitando a tomada de decisão das equipes responsáveis.
