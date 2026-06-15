@@ -77,9 +77,9 @@ npx expo start
 
 #### Trechos Monitorados
 
-* KM 120
-* KM 135
-* KM 150
+* KM 10 ao 20
+* KM 20 ao 30
+* KM 50 ao 65
 
 #### Status da Vegetação
 
