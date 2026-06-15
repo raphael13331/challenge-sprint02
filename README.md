@@ -1,55 +1,132 @@
-# 🌿 Motiva App - Monitoramento de Vegetação em Rodovias
+# Sistema de Monitoramento de Vegetação - Motiva
 
-> **Status do Projeto:** Entregue (Sprint 2) 🚀
+## Integrantes
 
-Aplicativo mobile desenvolvido em **React Native (Expo)** para a gestão e monitoramento inteligente do status de vegetação em trechos rodoviários. Este repositório contém a entrega referente à **Sprint 2** do projeto acadêmico.
+* Nome Completo – RM XXXXXXX
+* Nome Completo – RM XXXXXXX
+* Nome Completo – RM XXXXXXX
+* Nome Completo – RM XXXXXXX
+* Nome Completo – RM XXXXXXX
 
-## 🎯 Objetivos da Sprint 2
-- Desenvolvimento de 3 telas funcionais com navegação (`react-navigation`).
-- Implementação de fluxos principais utilizando dados mockados (sem dependência de APIs externas).
-- Validação da experiência do usuário e atualização de estados na interface.
-- Utilização de recursos nativos do dispositivo (GPS).
+## Descrição do Projeto
 
----
+O Sistema de Monitoramento de Vegetação foi desenvolvido para auxiliar a Motiva no acompanhamento remoto de áreas de vegetação próximas às rodovias.
 
-## 📱 Funcionalidades Implementadas
+A solução permite visualizar trechos monitorados, consultar ocorrências registradas e acompanhar o status da vegetação em diferentes pontos da rodovia. O objetivo é contribuir para a prevenção de riscos como incêndios, queda de árvores e obstrução das vias, facilitando a tomada de decisão das equipes responsáveis pela manutenção.
 
-1. **Painel de Controle (Home):**
-   - Listagem de trechos rodoviários.
-   - Indicadores visuais de risco (Verde: Controlado, Amarelo: Atenção, Vermelho: Crítico).
-2. **Detalhes do Trecho:**
-   - Visualização do histórico de inspeções.
-   - Lista detalhada de ocorrências ativas naquele trecho.
-3. **Registro de Ocorrências (Com GPS):**
-   - Formulário de reporte de problemas (ex: Mato alto, Risco de incêndio, Queda de árvore).
-   - Captura automática das coordenadas geográficas (**Lat/Lng**) utilizando o recurso nativo de geolocalização do dispositivo.
-   - Atualização dinâmica de estado: Ao registrar uma ocorrência, o status do trecho muda automaticamente para "Crítico" em toda a aplicação.
+## Tecnologias Utilizadas
 
----
+* React Native
+* Expo
+* JavaScript
+* React Navigation
+* Context API
+* StyleSheet
 
-## 🛠️ Tecnologias Utilizadas
+## Estrutura do Projeto
 
-- **React Native** (Framework principal)
-- **Expo** (Ambiente de desenvolvimento e build)
-- **React Navigation** (Navegação em pilha - Stack Navigation)
-- **React Context API** (Gerenciamento de estado global e Mock de Dados)
-- **Expo Location** (Acesso nativo ao GPS do dispositivo)
+src/
+├── screens/
+│   ├── Home.js
+│   ├── Monitoramento.js
+│   └── Ocorrencias.js
+│
+├── data/
+│   └── mockData.js
+│
+├── components/
+│
+├── context/
+│
+└── navigation/
 
----
+## Instalação
 
-## 💾 Estrutura de Mock de Dados (Context API)
+1. Clone o repositório:
 
-Conforme os requisitos da Sprint 2, a integração com APIs reais ocorrerá nas próximas etapas. Atualmente, os dados estão sendo mockados localmente de forma realista utilizando a `Context API` do React.
+git clone URL_DO_REPOSITORIO
 
-- **Localização:** `src/context/MotivaContext.js`
-- **Funcionamento:** O Context provê um payload em formato JSON contendo identificadores de trecho, rodovia, status calculados e um array de ocorrências. A função `adicionarOcorrencia` simula o método POST de uma API, atualizando o estado global do app em tempo real.
+2. Entre na pasta do projeto:
 
----
+cd nome-do-projeto
 
-## 🚀 Como Executar o Projeto Localmente
+3. Instale as dependências:
 
-Siga as instruções abaixo para rodar o projeto no seu ambiente local (necessário possuir o [Node.js](https://nodejs.org/) instalado).
+npm install
 
-**1. Clone o repositório:**
-```bash
-git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+4. Execute o projeto:
+
+npx expo start
+
+5. Abra o aplicativo utilizando:
+
+* Expo Go no celular
+* Emulador Android
+* Simulador iOS
+
+## Mocks Utilizados
+
+Nesta Sprint foi utilizada uma camada de dados simulados (mock) para representar informações que futuramente serão obtidas por meio de APIs reais.
+
+Os mocks estão armazenados no arquivo:
+
+src/data/mockData.js
+
+### Dados Simulados
+
+#### Ocorrências
+
+* Vegetação alta próxima à pista
+* Árvore com risco de queda
+* Possível foco de incêndio
+
+#### Trechos Monitorados
+
+* KM 120
+* KM 135
+* KM 150
+
+#### Status da Vegetação
+
+* Baixa
+* Média
+* Alta
+
+## Fluxo Funcional Demonstrado
+
+O aplicativo possui um fluxo completo utilizando dados mockados:
+
+1. O usuário acessa a tela de Ocorrências.
+2. Visualiza as ocorrências registradas.
+3. Seleciona a opção "Resolver".
+4. O status da ocorrência é atualizado para "Resolvido".
+5. A interface é atualizada automaticamente, simulando o comportamento de uma aplicação conectada a uma API.
+
+## Telas Implementadas
+
+### Home
+
+Tela inicial com apresentação da solução.
+
+### Monitoramento
+
+Exibe os trechos monitorados e o status atual da vegetação.
+
+### Ocorrências
+
+Lista as ocorrências registradas e permite atualizar seu status.
+
+## Relação com o Problema da Motiva
+
+A proposta busca auxiliar a Motiva no monitoramento preventivo da vegetação próxima às rodovias, permitindo identificar rapidamente situações de risco e registrar ocorrências de forma organizada.
+
+Mesmo utilizando dados simulados nesta Sprint, a estrutura foi preparada para futura integração com APIs, possibilitando monitoramento em tempo real e maior eficiência operacional.
+
+## Vídeo de Demonstração
+
+O vídeo apresenta:
+
+* Navegação entre as telas;
+* Exibição dos dados mockados;
+* Atualização de status das ocorrências;
+* Funcionamento geral da solução proposta para a Motiva.
