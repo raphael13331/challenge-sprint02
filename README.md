@@ -21,14 +21,13 @@ A arquitetura do projeto foi organizada de forma modular, separando telas, compo
 
 Com essa solução, busca-se contribuir para uma gestão mais eficiente da vegetação ao longo das rodovias, promovendo maior segurança para os usuários, redução de riscos operacionais e otimização dos processos de monitoramento e manutenção realizados pela Motiva.
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-* React Native
-* Expo
-* JavaScript
-* React Navigation
-* Context API
-* StyleSheet
+- **React Native** (Framework principal)
+- **Expo** (Ambiente de desenvolvimento e build)
+- **React Navigation** (Navegação em pilha - Stack Navigation)
+- **React Context API** (Gerenciamento de estado global e Mock de Dados)
+- **Expo Location** (Acesso nativo ao GPS do dispositivo)
 
 ## Instalação
 
